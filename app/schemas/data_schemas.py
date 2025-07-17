@@ -23,8 +23,11 @@ class Hyperparameters(BaseModel):
     gamma: Optional[float] = None
     epsilon: Optional[float] = None
     num_virtual_agents: Optional[int] = None
-    p_fire_nodes: Optional[float] = None
-    p_congestion: Optional[float] = None
+    reward_exit: Optional[float] = None
+    reward_fire: Optional[float] = None
+    reward_invalid: Optional[float] = None
+    reward_valid: Optional[float] = None
+    reward_congestion: Optional[float] = None
     p_random_neighbor: Optional[float] = None
     congestion_threshold: Optional[int] = None
 
