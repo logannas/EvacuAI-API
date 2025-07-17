@@ -3,7 +3,7 @@
 import grpc
 import warnings
 
-from app.core.grpc import evacuai_rl_pb2 as src_dot_grpc__server_dot_evacuai__rl__pb2
+from src.grpc_server import evacuai_rl_pb2 as src_dot_grpc__server_dot_evacuai__rl__pb2
 
 GRPC_GENERATED_VERSION = '1.71.0'
 GRPC_VERSION = grpc.__version__

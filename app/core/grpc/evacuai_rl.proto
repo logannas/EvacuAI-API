@@ -56,9 +56,11 @@ message HypParams {
     optional int32 episodes = 5;
     optional float gamma = 6;
     optional float epsilon = 7;
-    optional float p_fire_nodes = 8;
-    optional float p_congestion = 9;
-    optional float p_random_neighbor = 10;
-    optional int32 congestion_threshold = 11;
-    optional int32 num_virtual_agents = 12;
+    optional int32 congestion_threshold = 8;
+    optional int32 num_virtual_agents = 9;
+    optional float reward_exit = 10;
+    optional float reward_fire = 11;
+    optional float reward_invalid = 12;
+    optional float reward_valid = 13;
+    optional float reward_congestion = 14;
 }
